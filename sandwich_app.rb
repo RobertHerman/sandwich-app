@@ -1,12 +1,20 @@
 class Sandwich
     attr_accessor :meat, :bread, :veggies, :condiments
     def description()
-        puts "#@meat on #@bread"
+        if @meat.empty?
+            puts "What no meat?"
+            return self
+        end
+        if @bread.empty?
+            puts "It's not a sandwich without bread!"
+            return self
+        end
+        puts "#{ @meat } on #{ @bread }"
         if instance_variable_defined?(:@veggies)
-            puts " with #@veggies"
+            puts " with #{ @veggies }"
         end
         if instance_variable_defined?(:@condiments)
-            puts " and #@condiments"
+            puts " and #{ @condiments }"
         end
         return self
     end
@@ -37,7 +45,7 @@ class SandwichArtist
         until customer_input  == ""
             customer_input  = gets.chomp
             if(customer_input != "")
-                veggies += "#{customer_input} "
+                veggies += "#{ customer_input } "
                 sandwich.veggies = veggies
             end
         end
@@ -48,7 +56,7 @@ class SandwichArtist
         until customer_input  == ""
             customer_input = gets.chomp
             if(customer_input != "")
-                condiments += "#{customer_input} "
+                condiments += "#{ customer_input } "
                 sandwich.condiments = condiments
             end
         end
