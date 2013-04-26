@@ -4,7 +4,6 @@
 .config
 .yardoc
 *.un~
-Gemfile.lock
 InstalledFiles
 _yardoc
 coverage
