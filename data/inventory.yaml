@@ -1,0 +1,33 @@
+bread:
+ 1: white
+ 2: whole wheat
+ 3: italian loaf
+ 4: sourdough
+ 5: rye
+ 6: focaccia
+ 7: baquette
+meat:
+ 1: ham
+ 2: turkey
+ 3: roast beef
+ 4: bacon
+ 5: chicken
+ 6: salami
+ 7: pastrami
+vegtables:
+ 1: lettuce
+ 2: tomato
+ 3: cucumber
+ 4: onion
+ 5: pickle
+ 6: olive
+ 7: green peppers
+ 8: banana peppers
+ 9: jalapeno peppers
+condiments:
+ 1: salt
+ 2: pepper
+ 3: mayo
+ 4: bbq sauce
+ 5: mustard
+ 6: ketchup
