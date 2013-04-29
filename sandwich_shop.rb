@@ -1,7 +1,5 @@
 require "highline/import"
 
-require_relative './item.rb'
-require_relative './inventory.rb'
 require_relative './sandwich.rb'
 require_relative './sandwich_artist.rb'
 
