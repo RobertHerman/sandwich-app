@@ -31,6 +31,7 @@ class Sandwich
     sandwich_description = sandwich_description  + ' ' + layout_ingredients(bread, 'on')
     sandwich_description = sandwich_description  + ' ' + layout_ingredients(vegtables, 'with')
     sandwich_description = sandwich_description  + ' ' + layout_ingredients(condiments, 'topped with')
+    sandwich_description += '.'
 	end
 
 	private
